@@ -2,7 +2,7 @@ require 'rom'
 
 require './lib/yaml_adapter'
 
-rom = ROM::Environment.setup(yaml: 'yaml://tmp/sample.yml')
+rom = ROM::Environment.setup(yaml: 'yaml://sample.yaml')
 
 rom.schema do
   base_relation :users do
